@@ -1,0 +1,48 @@
+export const teams = [
+    {
+        id: 1,
+        img: 'tonikroos.jpg',
+        role: 'Product Developer',
+        linkedin: '',
+        medium: '',
+        instagram: '',
+        facebook: '',
+
+    },
+    {
+        id: 2,
+        img: 'zidane.jpg',
+        role: 'Engineering Head',
+        linkedin: '',
+        medium: '',
+        instagram: '',
+        facebook: '',
+    },
+    {
+        id: 3,
+        img: 'james.jpg',
+        role: 'Financial Operations',
+        linkedin: '',
+        medium: '',
+        instagram: '',
+        facebook: '',
+    },
+    {
+        id: 4,
+        img: 'ikercasillas.jpg',
+        role: 'Marketing Strategy',
+        linkedin: '',
+        medium: '',
+        instagram: '',
+        facebook: '',
+    },
+    {
+        id: 5,
+        img: 'tonikroos.jpg',
+        role: 'Talent Acquisition',
+        linkedin: '',
+        medium: '',
+        instagram: '',
+        facebook: '',
+    },
+]

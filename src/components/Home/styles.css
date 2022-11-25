@@ -1,0 +1,54 @@
+.journey-wrapper {
+    margin: 1rem auto;
+    min-height: 90vh;
+    min-width: 75vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.942), rgba(255, 255, 255, 0.132)),
+      url("../../../public/assets/grasspic.jpg");
+    padding: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .journey-title{
+      text-align: center;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      margin: 2rem auto;
+      letter-spacing: 3px;
+      font-weight: 600;
+  }
+  
+  .about-company{
+      color: #fff;
+      max-width: 900px;
+  }
+  
+  .about-company li{
+      list-style-type: disc;
+      color: #fff;
+      margin-bottom: 1rem;
+  }
+
+  .about-company li h3 {
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  
+  .about-title{
+      color: #fff;
+  }
+  
+  .about-description{
+      color: #fff;
+  }
+
+  .about-description {
+    font-weight: 400;
+  }

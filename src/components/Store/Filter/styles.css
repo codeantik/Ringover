@@ -1,0 +1,167 @@
+
+
+.filter-wrapper {
+    /* background-color: green; */
+    height: 100%;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.filter-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 5px auto;
+}
+
+.filter-header p:first-of-type {
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.filter-header button {
+    all: none;
+    outline: none;
+    background: none;
+    border: 2px solid var(--text-color);
+    font-size: 1rem;
+    /* font-weight: 400; */
+    padding: 3px 5px;
+    transition: all 0.3s ease;
+    margin-bottom: 5px;
+}
+
+.filter-header button:hover {
+    color: var(--body-background);
+    background-color: var(--text-color);
+    cursor: pointer;
+}
+
+.filter-cost, .filter-type {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-cost div p, .filter-color div p, .filter-type div p, .filter-rating div p {
+    font-weight: 450;
+    font-size: 1.05rem;
+}
+
+.filter-cost label input, .filter-type label input {
+    margin-top: 4px;
+    margin-right: 6px;
+}
+
+.filter-cost label > * {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.filter-color {
+    width: 100%;
+}
+
+.filter-color-wrapper {
+    margin: 10px 0px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter-color-wrapper div {
+   transition: all 0.3s ease;
+}
+
+.white, .black, .red  {
+    height: 35px;
+    width: 35px;
+    border: 1px solid var(--border-color)
+}
+
+.other {
+    height: 35px;
+    width: 35px;
+}
+
+.other img {
+    height: 100%;
+    width: 100%;
+}
+
+.white {
+    background-color: #fafbfc;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.filter-color-wrapper div:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.filter-type label, .filter-cost label {
+    margin: 1px 0;
+}
+
+.filter-rating .rating-range {
+    width: 155px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+.rating-range div {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn-filter {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.btn-filter-apply {
+    width: 100px;
+    color: var(--body-background);
+    background-color: var(--text-color);
+    transition: all 0.3s ease;
+    border: 2px solid var(--text-color);
+    padding: 5px 8px;
+    margin: 5% auto 0px;
+}
+
+.btn-filter-apply:hover {
+    background-color: var(--body-background);
+    color: var(--text-color);
+}
+
+@media screen and (max-width: 890px) {
+    .filter-color-wrapper {
+        margin: 10px 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn-filter-apply {
+        margin: 1% auto;
+    }
+}

@@ -45,7 +45,7 @@ export const Cart = ({ cartData }) => {
                     </div>
                 ))) : (
                     <div className='no-cart-items'>
-                        <p>What's stopping your, designer?</p>
+                        <p>What's stopping you, designer?</p>
                     </div>
                 )}
                 
